@@ -1,0 +1,44 @@
+/*Barra buscadora*/
+.search-bar {
+    text-align: center;
+    background-color: rgb(173, 199, 221);
+}
+
+/*Galería de Imagenes*/
+.gallery {
+    display: grid;
+    border: solid;
+    grid-template-columns: 450px 450px 450px;
+
+    .gallery__item {
+        text-align: center;
+        list-style: none;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Slider y categorías*/
+.catergories {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    list-style: none;
+}
+
+.slider {
+    display: flex;
+    padding-left: 20rem;
+
+    .slider__style {
+        justify-content: space-between;
+
+        .slider__box {
+            padding-right: 20rem;
+        }
+    }
+}
+.galeriaImagenes {
+    list-style: none;
+}

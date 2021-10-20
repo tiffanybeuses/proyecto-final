@@ -1,0 +1,153 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(173, 199, 221);
+    font-family: 'Glory', sans-serif;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+header {
+    background-image: linear-gradient(rgb(144, 170, 194), white);
+    background-color: rgb(173, 199, 221);
+}
+
+h1 {
+    text-align: center;
+}
+
+/*Estilo nav bar*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navItem {
+        margin-right: 1rem;
+    }
+
+    .navLink {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+.navbar-nav {
+    margin: 0 auto;
+
+}
+
+.d-flex {
+    margin: 0 auto;
+}
+.navList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+/*Estilo cuenta y carrito*/
+.cuentaCarrito {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    flex-direction: column;
+}
+
+/*Barra buscadora*/
+.barraBuscadora {
+    text-align: center;
+    background-color: rgb(173, 199, 221);
+}
+
+/*Galería de Imagenes*/
+.galeriaDeImagenes {
+    display: grid;
+    border: solid;
+    grid-template-columns: 450px 450px 450px;
+
+    .galeria1 {
+        text-align: center;
+        list-style: none;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeriaImagenes {
+        list-style: none;
+    }
+}
+
+/*Slider y categorías*/
+.categorias {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    list-style: none;
+}
+
+.slider {
+    padding-left: 5rem;
+}
+
+.slider1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formatoSlider {
+    padding-right: 20rem;
+}
+
+.footer {
+    padding-left: 80rem;
+}
+
+/*Media Queries*/
+/*1024 o más*/
+@media (min-width: 1024px) {
+    .tituloNosotros {
+        font-size: 3rem;
+    }
+
+    .parrafoNosotros {
+        font-size: 2rem;
+    }
+
+}
+
+/*Estilo footer*/
+footer {
+    font-size: 2rem;
+
+    .footer {
+        background-image: linear-gradient(rgb(144, 170, 194), white);
+        transition: 5s;
+        font-size: 3rem;
+    }
+}
